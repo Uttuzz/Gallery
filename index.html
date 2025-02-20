@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 36px;
+            margin: 20px 0;
+            color: #333;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Flexible grid */
+            gap: 20px;
+            padding: 20px;
+            width: 90%;
+            max-width: 1200px;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.1);
+        }
+
+        .footer {
+            text-align: center;
+            font-size: 16px;
+            color: #777;
+            position: absolute;
+            bottom: 20px;
+            width: 100%;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div>
+        <h1>My Image Gallery</h1>
+        <div class="gallery">
+            <!-- Add image links below -->
+            <img src="IMG-20250220-WA0001.jpg" alt="Image 1">
+            <img src="IMG-20250220-WA0001.jpg" alt="Image 2">
+            <img src="https://via.placeholder.com/400x300" alt="Image 3">
+            <img src="https://via.placeholder.com/400x300" alt="Image 4">
+            <img src="https://via.placeholder.com/400x300" alt="Image 5">
+            <img src="https://via.placeholder.com/400x300" alt="Image 6">
+            <img src="https://via.placeholder.com/400x300" alt="Image 7">
+            <img src="https://via.placeholder.com/400x300" alt="Image 8">
+            <img src="https://via.placeholder.com/400x300" alt="Image 9">
+            <img src="https://via.placeholder.com/400x300" alt="Image 11">
+            <img src="https://via.placeholder.com/400x300" alt="Image 12">
+            <img src="https://via.placeholder.com/400x300" alt="Image 13">
+            <img src="https://via.placeholder.com/400x300" alt="Image 14">
+            <img src="https://via.placeholder.com/400x300" alt="Image 15">
+            <img src="https://via.placeholder.com/400x300" alt="Image 16">
+            <img src="https://via.placeholder.com/400x300" alt="Image 17">
+            <img src="https://via.placeholder.com/400x300" alt="Image 18">
+            <img src="https://via.placeholder.com/400x300" alt="Image 19">
+            <img src="https://via.placeholder.com/400x300" alt="Image 20">
+            <img src="https://via.placeholder.com/400x300" alt="Image 21">
+            <img src="https://via.placeholder.com/400x300" alt="Image 22">
+            <img src="https://via.placeholder.com/400x300" alt="Image 23">
+            <img src="https://via.placeholder.com/400x300" alt="Image 24">
+            <img src="https://via.placeholder.com/400x300" alt="Image 25">
+            <img src="https://via.placeholder.com/400x300" alt="Image 26">
+            <img src="https://via.placeholder.com/400x300" alt="Image 27">
+            <img src="https://via.placeholder.com/400x300" alt="Image 28">
+            <img src="https://via.placeholder.com/400x300" alt="Image 29">
+            <img src="https://via.placeholder.com/400x300" alt="Image 30">
+            <img src="https://via.placeholder.com/400x300" alt="Image 31">
+            <img src="https://via.placeholder.com/400x300" alt="Image 32">
+            <img src="https://via.placeholder.com/400x300" alt="Image 33">
+            <img src="https://via.placeholder.com/400x300" alt="Image 34">
+            <img src="https://via.placeholder.com/400x300" alt="Image 35">
+            <img src="https://via.placeholder.com/400x300" alt="Image 36">
+            <img src="https://via.placeholder.com/400x300" alt="Image 37">
+            <img src="https://via.placeholder.com/400x300" alt="Image 38">
+            <img src="https://via.placeholder.com/400x300" alt="Image 39">
+            <img src="https://via.placeholder.com/400x300" alt="Image 40">
+
+
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Thank you for visiting my image gallery!</p>
+    </div>
+
+</body>
+</html>
